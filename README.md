@@ -14,7 +14,8 @@
    - [Endpoints](#endpoints)
    - [Ejemplo de solicitud](#ejemplo-de-solicitud)
 4. [Acceso al Frontend](#acceso-al-frontend)
-5. [Respuestas Teóricas](#respuestas-teóricas)
+5. [Credenciales de Acceso a MySQL](#credenciales-de-acceso-a-mysql)
+6. [Respuestas Teóricas](#respuestas-teóricas)
 
 ## Instalación
 
