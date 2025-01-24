@@ -97,3 +97,7 @@ En el navegador, podrás:
 - Editar tareas existentes.
 - Marcar tareas como completadas.
 - Eliminar tareas.
+
+## Respuestas Teóricas
+
+Para ver las respuestas teóricas a la prueba técnica, puedes consultar el siguiente [documento PDF](https://drive.google.com/file/d/1UPI_Dpa21elat51qTHE7SvVvhBlfccai/view?usp=drive_link).
