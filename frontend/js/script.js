@@ -105,6 +105,7 @@ function renderTask(task) {
   const taskDescription = document.createElement('div');
   taskDescription.classList.add('task__description');
   taskDescription.textContent = task.description;
+  if (task.status === 1) taskDescription.classList.add('strikethrough');  // Añadir strikethrough a la descripción si la tarea está completada
 
   taskElement.appendChild(taskHeader);
   taskElement.appendChild(taskDescription);
