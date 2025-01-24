@@ -1,5 +1,21 @@
 # Task Manager - Aplicación de Gestión de Tareas
 
+## Índice
+
+1. [Instalación](#instalación)
+   - [Requisitos previos](#requisitos-previos)
+   - [Clonar el repositorio](#clonar-este-repositorio-en-tu-máquina-local)
+2. [Ejecución](#ejecución)
+   - [Levantar los contenedores](#levantar-los-contenedores)
+   - [Detener los contenedores](#detener-los-contenedores)
+   - [Volver a correr la aplicación](#volver-a-correr-la-aplicación)
+3. [Documentación de la API](#documentación-de-la-api)
+   - [Base URL](#base-url)
+   - [Endpoints](#endpoints)
+   - [Ejemplo de solicitud](#ejemplo-de-solicitud)
+4. [Acceso al Frontend](#acceso-al-frontend)
+5. [Respuestas Teóricas](#respuestas-teóricas)
+
 ## Instalación
 
 ### Requisitos previos:
