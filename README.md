@@ -114,6 +114,16 @@ En el navegador, podrás:
 - Marcar tareas como completadas.
 - Eliminar tareas.
 
+## Credenciales de Acceso a MySQL
+
+La base de datos MySQL se expone a través del contenedor `task-manager-db`. Puedes acceder a ella utilizando las siguientes credenciales:
+
+- **Host**: `localhost` o `127.0.0.1`
+- **Puerto**: `3306`
+- **Usuario**: `root`
+- **Contraseña**: `rootpassword`
+- **Base de datos**: `task-manager-db`
+
 ## Respuestas Teóricas
 
 Para ver las respuestas teóricas a la prueba técnica, puedes consultar el siguiente [documento PDF](https://drive.google.com/file/d/1UPI_Dpa21elat51qTHE7SvVvhBlfccai/view?usp=drive_link).
