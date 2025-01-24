@@ -1,0 +1,38 @@
+services:
+  backend:
+    build: . 
+    container_name: task-manager
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    volumes:
+      - ./backend:/var/www/html
+
+  frontend:
+    image: nginx:alpine
+    container_name: task-manager-frontend
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    depends_on:
+      - backend
+
+  db:
+    image: mysql:8.0
+    container_name: task-manager-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: task-manager-db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      LANG: C.UTF-8
+    ports:
+      - "3306:3306"
+    volumes:
+      - task-manager-db:/var/lib/mysql
+      - ./database:/docker-entrypoint-initdb.d  
+
+volumes:
+  task-manager-db:
